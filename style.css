@@ -1,0 +1,33 @@
+h1,h2,h3 {
+  font-family: "EB Garamond", serif;
+  color: #3c005a;
+}
+
+h3 {
+  font-size: 2rem;
+}
+
+:root {
+  --color-link: #3c005a;
+  --color-bg: #f0dacc;
+  --color-bg-secondary: #642a06;
+  --color-shadow: #9b938d;
+}
+
+h1 {
+  font-size: 5rem;
+  font-weight: 800;
+  /* Text Gradient */
+  background-image: linear-gradient(25deg, #3c005a, #c876f1);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  color: transparent;
+  -webkit-text-fill-color: transparent; 
+  -moz-text-fill-color: transparent;
+}
+
+a b {
+  background: linear-gradient(25deg, #3c005a, #c876f1);
+  border: none;
+}
